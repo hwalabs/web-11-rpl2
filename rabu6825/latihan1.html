@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulir Pendaftaran Siswa</title>
+</head>
+<body>
+  <h2>Formulir Pendaftaran Siswa</h2>
+  <form action="#" method="post" enctype="multipart/form-data">
+    
+    <!-- NIS -->
+    <label>Nomor Induk Siswa (NIS):</label><br />
+    <input type="text" name="nis" /><br /><br />
+
+    <!-- Nama -->
+    <label>Nama Lengkap:</label><br />
+    <input type="text" name="nama_depan" placeholder="Depan" />
+    <input type="text" name="nama_belakang" placeholder="Belakang" /><br /><br />
+
+    <!-- Tempat & Tanggal Lahir -->
+    <label>Tempat Lahir:</label><br />
+    <input type="text" name="tempat_lahir" /><br /><br />
+
+    <label>Tanggal Lahir:</label><br />
+    <select name="tanggal">
+      <option value="">Tanggal</option>
+      <!-- 1-31 -->
+      <!-- Untuk ringkas, ditampilkan beberapa -->
+      <option>1</option><option>2</option><option>3</option><option>4</option>
+      <option>5</option><option>6</option><option>7</option><option>8</option>
+      <!-- Tambahkan hingga 31 -->
+    </select>
+
+    <select name="bulan">
+      <option value="">Bulan</option>
+      <option>Januari</option><option>Februari</option><option>Maret</option>
+      <option>April</option><option>Mei</option><option>Juni</option>
+      <option>Juli</option><option>Agustus</option><option>September</option>
+      <option>Oktober</option><option>November</option><option>Desember</option>
+    </select>
+
+    <select name="tahun">
+      <option value="">Tahun</option>
+      <!-- Beberapa tahun sebagai contoh -->
+      <option>2005</option><option>2006</option><option>2007</option><option>2008</option>
+    </select>
+    <br /><br />
+
+    <!-- Jenis Kelamin -->
+    <label>Jenis Kelamin:</label><br />
+    <input type="radio" name="jk" value="Laki-laki" /> Laki-laki
+    <input type="radio" name="jk" value="Perempuan" /> Perempuan<br /><br />
+
+    <!-- Hobi -->
+    <label>Hobi:</label><br />
+    <input type="checkbox" name="hobi" value="Membaca" /> Membaca<br />
+    <input type="checkbox" name="hobi" value="Menulis" /> Menulis<br />
+    <input type="checkbox" name="hobi" value="Olahraga" /> Olahraga<br />
+    <input type="checkbox" name="hobi" value="Memasak" /> Memasak<br /><br />
+
+    <!-- Kelas & Jurusan -->
+    <label>Kelas:</label><br />
+    <select name="kelas">
+      <option value="">Pilih Kelas</option>
+      <option>X</option><option>XI</option><option>XII</option>
+    </select><br /><br />
+
+    <label>Jurusan:</label><br />
+    <select name="jurusan">
+      <option value="">Pilih Jurusan</option>
+      <option>RPL</option><option>TKJ</option><option>AKL</option><option>OTKP</option>
+    </select><br /><br />
+
+    <!-- Agama -->
+    <label>Agama:</label><br />
+    <select name="agama">
+      <option value="">Pilih Agama</option>
+      <option>Islam</option><option>Kristen</option><option>Katolik</option>
+      <option>Hindu</option><option>Buddha</option><option>Konghucu</option>
+    </select><br /><br />
+
+    <!-- Email -->
+    <label>Email:</label><br />
+    <input type="email" name="email" /><br /><br />
+
+    <!-- No HP -->
+    <label>Nomor HP:</label><br />
+    <input type="tel" name="nohp" /><br /><br />
+
+    <!-- Unggah Foto -->
+    <label>Unggah Foto Siswa:</label><br />
+    <input type="file" name="foto" /><br /><br />
+
+    <!-- Alamat -->
+    <label>Alamat Lengkap:</label><br />
+    <textarea name="alamat" rows="4" cols="40"></textarea><br /><br />
+
+    <!-- Tombol -->
+    <button type="submit">Daftar</button>
+    <button type="reset">Reset</button>
+
+  </form>
+</body>
+</html>

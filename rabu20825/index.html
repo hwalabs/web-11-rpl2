@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nis">NIS</label><br>
+        <input type="text"><br>
+        <label for="namaLengkap">Nama Lengkap</label><br>
+        <input type="text"><br><br>
+
+        <table>
+            <tr>
+                <td><label for="nis">NOS</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="namaLengkap">Nama</label></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <label for="tanggalLahir">Tanggal Lahir</label><br>
+        <label for="hari">Hari</label>
+        <select name="hari" id="hari">
+            <option value="">Hari</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+
+        <h3>Radio</h3>
+        <label for="jenis_kelamin">Jenis Kelamin</label><br>
+        <input type="radio" name="jenis_kelamin"> Laki-laki <br>
+        <input type="radio" name="jenis_kelamin"> Perempuan
+        
+        <h3>checkbox</h3>
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox"> Membaca <br>
+        <input type="checkbox"> ngoding
+        <br>
+        <label for="upload">Upload Foto terbaik kamu!</label><br>
+        <input type="file">
+<br><br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat"></textarea>
+        
+        <input type="submit" name="simpan" id="simpan" value="Daftar">
+    </form>
+</body>
+</html>

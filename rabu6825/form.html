@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text"><br>
+        <label for="password">Password</label><br>
+        <input type="password">
+
+        <table>
+            <tr>
+                <td>
+                    <label for="nama">Nama Lengkap</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr></tr>
+        </table>
+
+        <h5>--Radio Button--</h5>
+        <label for="jenis_kelamin">Jenis Kelamin</label><br>
+        <input type="radio" name="gender" value="perempuan"> Perempuan <br>
+        <input type="radio" name="gender" value="lakilaki"> Laki-laki
+
+        <h5>--Checkbox</h5>
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox"> Sepakbola <br>
+        <input type="checkbox"> Menari
+
+        <h5>--Dropdown--</h5>
+        <label for="jurusan">Jurusan:</label>
+        <select name="jurusan" id="jurusan">
+            <option value="rpl">Rekayasa Perangkat Lunak</option>
+            <option value="tsm">Teknik Sepeda Motor</option>
+            <option value="atph">Agribisnis Tanaman Pangan dan Hortikultura</option>
+        </select>
+
+        <h5>--TextArea--</h5>
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat"></textarea>
+
+        <input type="datetime">
+
+        <h5>--Submit--</h5>
+        <input type="submit" value="Daftar">
+    </form>
+</body>
+</html>
